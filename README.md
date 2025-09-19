@@ -2,11 +2,9 @@
 
 Выполнение практического задания по установке и настройке ELK Stack.
 
-## Задание 1: Elasticsearch
+Задание 1: Elasticsearch
 - Установлен и запущен Elasticsearch
 - Параметр `cluster_name` изменен на `my_random_cluster_12345`
-
-### Команда для проверки:
 ```bash
 curl -X GET 'localhost:9200/_cluster/health?pretty'
 
@@ -20,14 +18,10 @@ curl -X GET 'localhost:9200/_cluster/health?pretty'
 text
 GET /_cluster/health?pretty
 
-
-
 Задание 3: Logstash + Nginx
 Настроена отправка access-логов Nginx в Elasticsearch через Logstash
 
 Созданы тестовые логи Nginx
-
-
 
 Задание 4: Filebeat
 Настроена поставка логов Nginx через Filebeat
